@@ -1,6 +1,6 @@
 import { json } from "react-router-dom";
 
- let url = 'https://instabackend-fyrg.onrender.com/';
+ let url = "https://instabackend-fyrg.onrender.com/";
 
 function Data(){
 return url;
