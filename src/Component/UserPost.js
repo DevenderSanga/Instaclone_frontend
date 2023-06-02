@@ -27,7 +27,7 @@ console.log(user);
     </div>
 
     <div id="img-container">
-        <img src={`https://insta-clone-database.onrender.com/post/${d.file}`} id="img-size"></img>
+        <img src={`https://instabackend-fyrg.onrender.com/post/${d.file}`} id="img-size"></img>
     </div>
 
     <div className="icon-container">

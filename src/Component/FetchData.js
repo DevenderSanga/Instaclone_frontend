@@ -1,6 +1,6 @@
 import { json } from "react-router-dom";
 
- let url = "https://instabackend-fyrg.onrender.com/";
+ let url = "https://instabackend-fyrg.onrender.com";
 
 function Data(){
 return url;
@@ -12,17 +12,16 @@ return fetch(`${Data()}/post`)
 }
 
 function AddData(data){
- 
     return fetch(`${Data()}/post`,{
         method:"POST",
-        // headers:{
-        //     "content-type":"application/json",
-        //     "accept":"application/json",
-        // },
         body:data
       
     })
     .then(res=>res.json())
+    .catch(err=>{
+        console.log(err)
+    })
+    
 }
 
 
