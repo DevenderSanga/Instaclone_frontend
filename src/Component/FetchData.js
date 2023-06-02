@@ -1,11 +1,10 @@
 import { json } from "react-router-dom";
 
- let url = "http://localhost:8000";
+ let url = 'https://instabackend-fyrg.onrender.com/';
 
 function Data(){
 return url;
 }
-
 
 function FeatchData(){
 return fetch(`${Data()}/post`)
